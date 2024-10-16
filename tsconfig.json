@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "ES6", // or "ESNext" for the latest ECMAScript features
+        "module": "CommonJS", // Node.js uses CommonJS
+        "strict": true, // Enable strict type-checking options
+        "esModuleInterop": true, // Enables interop between CommonJS and ES modules
+        "forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased references
+        "skipLibCheck": true // Skip type checking of declaration files
+    },
+    "include": ["**/*.ts"], // Include all TypeScript files
+    "exclude": ["node_modules"] // Exclude node_modules
+}
