@@ -20,7 +20,7 @@ const quickSort = (arr: number[]): number[] => {
     const largerNums: number[] = [];
 
     for (let i = 0; i < arrayLength - 1; ++i) {
-        if (arr[i] < pivot!) {
+        if (arr[i] < pivot) {
             smallerNums.push(arr[i]);
         } else {
             largerNums.push(arr[i]);
