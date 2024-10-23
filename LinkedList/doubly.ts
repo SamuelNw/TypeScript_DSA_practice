@@ -199,3 +199,12 @@ console.log(
 // Final state of the list
 console.log("Final list state:", dll.get(0), dll.get(1), dll.get(2));
 // Output: 10, 20, 30
+
+/*
+    COMPLEXITY ANALYSIS:
+    - TIME:
+        - Methods PREPEND & APPEND have a time complexity of O(1).
+        - Methods INSERTAT, REMOVE, GET, & REMOVEAT have a time complexity of O(N), owing to the looping.
+    - SPACE:
+        - O(N) for the nodes in the linkelist
+*/
