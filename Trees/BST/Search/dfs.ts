@@ -15,3 +15,9 @@ function dfs(head: TreeNode | null, needle: number): boolean {
         ? dfs(head.left, needle)
         : dfs(head.right, needle);
 }
+
+/*
+    COMPLEXITY ANALYSIS:
+    - Time: Runs in the range of O(logN) and O(N)
+    - Space: Runs in the range of O(h) where h is the height of the tree thus O(logN) for balanced trees or O(N) for unbalanced trees.
+*/
