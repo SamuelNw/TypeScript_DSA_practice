@@ -1,3 +1,5 @@
+// Does a BFS search on an adjacency matrix.
+
 const BfsGraph = (
     graph: number[][],
     source: number,
